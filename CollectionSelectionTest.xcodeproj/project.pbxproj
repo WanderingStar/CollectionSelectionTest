@@ -22,6 +22,7 @@
 		0362886F1826006A005D9A41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0362884E18260069005D9A41 /* UIKit.framework */; };
 		036288771826006A005D9A41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 036288751826006A005D9A41 /* InfoPlist.strings */; };
 		036288791826006A005D9A41 /* CollectionSelectionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 036288781826006A005D9A41 /* CollectionSelectionTestTests.m */; };
+		03628884182600CD005D9A41 /* CSTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03628883182600CD005D9A41 /* CSTCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		036288741826006A005D9A41 /* CollectionSelectionTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionSelectionTestTests-Info.plist"; sourceTree = "<group>"; };
 		036288761826006A005D9A41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		036288781826006A005D9A41 /* CollectionSelectionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionSelectionTestTests.m; sourceTree = "<group>"; };
+		03628882182600CD005D9A41 /* CSTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTCell.h; sourceTree = "<group>"; };
+		03628883182600CD005D9A41 /* CSTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				0362885F18260069005D9A41 /* Main_iPad.storyboard */,
 				0362886218260069005D9A41 /* CSTViewController.h */,
 				0362886318260069005D9A41 /* CSTViewController.m */,
+				03628882182600CD005D9A41 /* CSTCell.h */,
+				03628883182600CD005D9A41 /* CSTCell.m */,
 				0362886518260069005D9A41 /* Images.xcassets */,
 				0362885118260069005D9A41 /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 			files = (
 				0362885718260069005D9A41 /* main.m in Sources */,
 				0362886418260069005D9A41 /* CSTViewController.m in Sources */,
+				03628884182600CD005D9A41 /* CSTCell.m in Sources */,
 				0362885B18260069005D9A41 /* CSTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
