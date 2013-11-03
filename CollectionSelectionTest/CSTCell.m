@@ -21,6 +21,8 @@
 
 -(void)setSelected:(BOOL)selected
 {
+    [super setSelected:selected];
+    
     if (selected) {
         self.backgroundColor = [UIColor redColor];
     } else {
